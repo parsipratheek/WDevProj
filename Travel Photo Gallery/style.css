@@ -1,0 +1,122 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #263238;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #172b3a;
+    color: white;
+    padding: 15px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    color: #65d6c4;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.banner {
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+    background: linear-gradient(#0006, #0006),
+    url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1600&q=85");
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+    background-color: #65d6c4;
+    color: #172b3a;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#destinations {
+    padding: 45px 7%;
+}
+
+#destinations h2,
+.about h2 {
+    text-align: center;
+    color: #172b3a;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.place {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px #00000015;
+    transition: transform 0.3s;
+}
+
+.place:hover {
+    transform: translateY(-10px);
+}
+
+.place img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.details {
+    padding: 15px;
+}
+
+.details h3 {
+    margin: 0 0 8px;
+    color: #167d79;
+}
+
+.details p {
+    margin: 0;
+    color: #666;
+}
+
+.about {
+    background-color: #e4f4f1;
+    text-align: center;
+    padding: 40px 10%;
+}
+
+.about p {
+    max-width: 650px;
+    margin: 15px auto 0;
+}
+
+footer {
+    background-color: #172b3a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+ 
